@@ -29,16 +29,19 @@ function updateSelection() {
   switch(listChoice.value) {
     case "air-horn":
       imageElement.src = "assets/images/air-horn.svg";
+      imageElement.alt = "Air Horn";
       soundElement.src = "assets/audio/air-horn.mp3";
       playConfetti = false;
       break;
     case "car-horn":
       imageElement.src = "assets/images/car-horn.svg";
+      imageElement.alt = "Car Horn";
       soundElement.src = "assets/audio/car-horn.mp3";
       playConfetti = false;
       break;
     case "party-horn":
       imageElement.src = "assets/images/party-horn.svg";
+      imageElement.alt = "Party Horn!";
       soundElement.src = "assets/audio/party-horn.mp3";
       playConfetti = true;
       break;
